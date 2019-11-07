@@ -12,7 +12,8 @@ __Root:__  security > kibana lfi >rev shell as kibana >/etc/logstash/conf.d> gro
 ### US3R
 Run nmap to find open ports. Nmap will show result like this:
 ![nmap scan](/images/nmap.png)
-We have open ports; 22 is ssh, 80 is http, 9200 also http. Open 80 in browser and there is picture of needle in haystack, download it, run strings against it. There is a base64 encoded string in the last line, save it in a file and decode it.
+We have open ports; 22 is ssh, 80 is http, 9200 also http. Open 80 in browser and there is picture of needle in haystack, download it, run strings against it. There is a base64 encoded string in the last line,save it in a file and decode it.
+
 ![Base64](/images/string.png)
  
     base64 –decode file.b64.
