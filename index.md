@@ -15,18 +15,20 @@ Run nmap to find open ports. Nmap will show result like this:
 We have open ports; 22 is ssh, 80 is http, 9200 also http. Open 80 in browser and there is picture of needle in haystack, download it, run strings against it. There is a base64 encoded string in the last line, save it in a file and decode it.
  
     base64 –decode file.b64.
+
 it is a line in Spanish, use google translator if you don’t know Spanish (the whole box is in Spanish, learning some Spanish is extra gain).
 The line says needle in a haystack is the “key”. Keep it; it will help in future.  
 Let's look at port 9200. It says it is elasticsearch.
 
 Run gobuster in the background on port 9200.
 
-    gobuster dir –u http://10.10.10.115:9200/ -w /usr/share/    wordlist/dirbuster/directory-list-2.3-medium.txt
+    gobuster dir –u http://10.10.10.115:9200/ -w /usr/share/wordlist/dirbuster/directory-list-2.3-medium.txt
  
 Let’s look at those urls. It dumps some data in Spanish, not very useful. Go for elasticsearch and ELK stash 
 [documentation](https://www.elastic.co/what-is/elk-stack) and try to figure out how to dump data from the database. After some study I found this search can help to pass query:
     
     http://10.10.10.115:9200/_search?q=
+
  We found “clave” (key in spanish) in the needle image, so let’s do this:
 
     http://10.10.10.115:9200/_search?q=quote:clave
