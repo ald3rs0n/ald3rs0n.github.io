@@ -461,9 +461,9 @@ $menubar-top-separator-enabled-widest:			true;
 // The height of the seperator.
 // CSS property: height
 //
-$menubar-top-separator-height-narrow:			2px;
-$menubar-top-separator-height-medium:			2px;
-$menubar-top-separator-height-widest:			2px;
+$menubar-top-separator-height-narrow:			1px;
+$menubar-top-separator-height-medium:			1px;
+$menubar-top-separator-height-widest:			1px;
 
 // The background of the separator
 // CSS property: background
@@ -523,8 +523,8 @@ $menubar-enabled-widest:							true;
 //
 // Note: For the narrow layout it is always set to 'auto'.
 //
-$menubar-height-medium:								auto;
-$menubar-height-widest:								auto;
+$menubar-height-medium:								30px;
+$menubar-height-widest:								50px;
 
 // Horizontally position the icon, items and item-separators in the menubar.
 // CSS property: justify-content
@@ -599,27 +599,27 @@ $menubar-subsubitem-color-selected-widest:			$menubar-subitem-color-selected-wid
 // The selected background is used when an item is visible and the page that is linked to is visible.
 // CSS property: background
 //
-$menubar-item-background-narrow:					$grey-color-light;
-$menubar-item-background-medium:					white;
-$menubar-item-background-widest:					white;
+$menubar-item-background-narrow:					#1a1a1a;
+$menubar-item-background-medium:				  #1a1a1a;
+$menubar-item-background-widest:					#1a1a1a;
 $menubar-item-background-hover-narrow:				$grey-color-light;
 $menubar-item-background-hover-medium:				$grey-color-light;
 $menubar-item-background-hover-widest:				$grey-color-light;
-$menubar-item-background-selected-narrow:			$grey-color-light;
-$menubar-item-background-selected-medium:			$grey-color-light;
-$menubar-item-background-selected-widest:			$grey-color-light;
-$menubar-subitem-background-narrow: 				$grey-color-light;
-$menubar-subitem-background-medium:					none;
-$menubar-subitem-background-widest:					none;
-$menubar-subitem-background-hover-narrow:			$grey-color-light;
-$menubar-subitem-background-hover-medium:			$grey-color-light;
-$menubar-subitem-background-hover-widest:			$grey-color-light;
+$menubar-item-background-selected-narrow:			$grey-color-dark;
+$menubar-item-background-selected-medium:			$grey-color-dark;
+$menubar-item-background-selected-widest:			$grey-color-dark;
+$menubar-subitem-background-narrow: 				#1a1a1a;
+$menubar-subitem-background-medium:					#1a1a1a;
+$menubar-subitem-background-widest:					#1a1a1a;
+$menubar-subitem-background-hover-narrow:			$grey-color-dark;
+$menubar-subitem-background-hover-medium:			$grey-color-dark;
+$menubar-subitem-background-hover-widest:			$grey-color-dark;
 $menubar-subitem-background-selected-narrow:		$grey-color-light;
 $menubar-subitem-background-selected-medium:		$grey-color-light;
 $menubar-subitem-background-selected-widest:		$grey-color-light;
-$menubar-subsubitem-background-narrow: 				$grey-color-light;
-$menubar-subsubitem-background-medium:				none;
-$menubar-subsubitem-background-widest:				none;
+$menubar-subsubitem-background-narrow: 				#1a1a1a;
+$menubar-subsubitem-background-medium:				#1a1a1a;
+$menubar-subsubitem-background-widest:				#1a1a1a;
 $menubar-subsubitem-background-hover-narrow:		$grey-color-light;
 $menubar-subsubitem-background-hover-medium:		$grey-color-light;
 $menubar-subsubitem-background-hover-widest:		$grey-color-light;
@@ -711,8 +711,8 @@ $menubar-dropdown-padding-widest:					0px;
 // The background for the boxes are only visible when no background for the subitem or subsubitem has been specified.
 // CSS property: background
 //
-$menubar-dropdown-background-medium:				white;
-$menubar-dropdown-background-widest:				white;
+$menubar-dropdown-background-medium:				#1a1a1a;
+$menubar-dropdown-background-widest:	  		#1a1a1a;
 $menubar-sub-dropdown-background-medium:			$menubar-dropdown-background-medium;
 $menubar-sub-dropdown-background-widest:			$menubar-dropdown-background-widest;
 
@@ -727,8 +727,8 @@ $menubar-sub-dropdown-border-widest:				$menubar-dropdown-border-widest;
 // The shadow around the dropdown or sub-dropdown part boxes.
 // CSS property: box-shadow
 //
-$menubar-dropdown-box-shadow-medium:				0em 0.25em 0.25em 0em rgba(0,0,0,0.2);
-$menubar-dropdown-box-shadow-widest:				0em 0.25em 0.25em 0em rgba(0,0,0,0.2);
+$menubar-dropdown-box-shadow-medium:				0em 0.25em 0.25em 0em rgba(255,255,255,0.8);
+$menubar-dropdown-box-shadow-widest:				0em 0.25em 0.25em 0em rgba(255,255,255,0.8);
 $menubar-sub-dropdown-box-shadow-medium:			$menubar-dropdown-box-shadow-medium;
 $menubar-sub-dropdown-box-shadow-widest:			$menubar-dropdown-box-shadow-widest;
 
@@ -970,8 +970,8 @@ $vmenu-topTitle-margin-widest:							0;
 // The border for the vertical menu
 // CSS property: border
 //
-$vmenu-border-medium:									1px solid $grey-color-light;
-$vmenu-border-widest:									1px solid $grey-color-light;
+$vmenu-border-medium:									1px dashed $grey-color-light;
+$vmenu-border-widest:									1px dashed $grey-color-light;
 
 // The shadow for the vertical menu
 // CSS property: box-shadow
@@ -1016,14 +1016,14 @@ $vmenu-subitem-font-widest:								$small-1-font-size $theme-font-family;
 // The font color of the sub menu item
 // CSS property: color
 //
-$vmenu-subitem-color-medium:							black;
-$vmenu-subitem-color-widest:							black;
+$vmenu-subitem-color-medium:							white;
+$vmenu-subitem-color-widest:							white;
 
 // The font color of the sub menu item when the cursor hovers over it
 // CSS property: color with the :hover selector
 //
-$vmenu-subitem-color-hover-medium:						black;
-$vmenu-subitem-color-hover-widest:						black;
+$vmenu-subitem-color-hover-medium:						white;
+$vmenu-subitem-color-hover-widest:						white;
 
 // Padding for the sub menu item title
 // CSS property: padding
@@ -1089,14 +1089,14 @@ $vmenu-subsubitem-border-widest:						none;
 // The text color of the sub-sub menu item title
 // CSS property: color
 //
-$vmenu-subsubitem-color-medium:							black;
-$vmenu-subsubitem-color-widest:							black;
+$vmenu-subsubitem-color-medium:							white;
+$vmenu-subsubitem-color-widest:							white;
 
 // The text color of the sub-sub menu item title when the cursor hovers over it
 // CSS property: color
 //
-$vmenu-subsubitem-color-hover-medium:					black;
-$vmenu-subsubitem-color-hover-widest:					black;
+$vmenu-subsubitem-color-hover-medium:					white;
+$vmenu-subsubitem-color-hover-widest:					white;
 
 // The background of the sub-sub menu item layout
 // CSS property: background
