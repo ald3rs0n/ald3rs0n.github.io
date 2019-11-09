@@ -11,7 +11,7 @@
 	margin-left: 0;
 	margin-bottom: $vspacing-unit / 2;
 	margin-right: 0;
-	border-bottom: 1px solid $widget-separator-color;
+	border-bottom: 1px dashed $widget-separator-color;
 	@if $widget-separator-display { display: block; } @else { display: none; }
 }
 

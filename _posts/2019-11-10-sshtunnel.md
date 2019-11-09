@@ -63,3 +63,9 @@ Quick commands:
 
     ssh -D 9001 user@hostname.net
     ssh -R 4000:server.net:5000 user@server.net
+
+Hope you enjoyed; Happy Hacking.
+
+Contact: [mail](aldersone213@gmail.com)   || [twitter](https://twitter.com/404_NoNameFound)  || [reddit](https://reddit.com/u/souvuo)
+
+    Author:	Ald3rs0n
