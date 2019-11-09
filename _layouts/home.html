@@ -1,0 +1,23 @@
+---
+<!-- layout: default -->
+layout: content-blocks
+---
+
+<div>
+
+{%- assign posts-text = 'Posts' -%}
+{%- if site.data.text-for.tPosts -%}{%- assign posts-text = site.data.text-for.tPosts -%}{%- endif -%}
+	<h1>{{ posts-text }}</h1>
+	
+<!--	{{ content }} -->
+
+{%- for post in site.posts limit: site.data.setup.number-of-posts-on-home-page -%}
+
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+    <span class="post-meta">{{ post.date | date: "%F" }}</span>
+
+    <div>{{ post.content }}</div>
+
+{%- endfor -%}
+
+</div>
