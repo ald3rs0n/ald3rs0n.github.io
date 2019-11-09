@@ -461,9 +461,9 @@ $menubar-top-separator-enabled-widest:			true;
 // The height of the seperator.
 // CSS property: height
 //
-$menubar-top-separator-height-narrow:			1px;
-$menubar-top-separator-height-medium:			1px;
-$menubar-top-separator-height-widest:			1px;
+$menubar-top-separator-height-narrow:			none;
+$menubar-top-separator-height-medium:		  none;
+$menubar-top-separator-height-widest:			none;
 
 // The background of the separator
 // CSS property: background
@@ -489,9 +489,9 @@ $menubar-bottom-separator-enabled-widest:		true;
 // The height of the seperator.
 // CSS property: height
 //
-$menubar-bottom-separator-height-narrow:		2px;
-$menubar-bottom-separator-height-medium:		2px;
-$menubar-bottom-separator-height-widest:		2px;
+$menubar-bottom-separator-height-narrow:		none;
+$menubar-bottom-separator-height-medium:		none;
+$menubar-bottom-separator-height-widest:		none;
 
 // The background of the separator
 // CSS property: background
@@ -576,16 +576,16 @@ $menubar-subsubitem-font-widest:					$menubar-subitem-font-widest;
 $menubar-item-color-narrow:							$theme-color;
 $menubar-item-color-medium:							$theme-color;
 $menubar-item-color-widest:							$theme-color;
-$menubar-item-color-hover-narrow:					white;
-$menubar-item-color-hover-medium:					white;
-$menubar-item-color-hover-widest:					white;
+$menubar-item-color-hover-narrow:			  $theme-color;
+$menubar-item-color-hover-medium:				$theme-color;
+$menubar-item-color-hover-widest:				$theme-color;
 $menubar-item-color-selected-narrow:				$theme-color;
 $menubar-item-color-selected-medium:				$theme-color;
 $menubar-item-color-selected-widest:				$theme-color;
 $menubar-subitem-color-medium:						$theme-color;
 $menubar-subitem-color-widest:						$theme-color;
-$menubar-subitem-color-hover-medium:				white;
-$menubar-subitem-color-hover-widest:				white;
+$menubar-subitem-color-hover-medium:			$theme-color;
+$menubar-subitem-color-hover-widest:			$theme-color;
 $menubar-subitem-color-selected-medium:				$theme-color;
 $menubar-subitem-color-selected-widest:				$theme-color;
 $menubar-subsubitem-color-medium:					$menubar-subitem-color-medium;
@@ -614,18 +614,18 @@ $menubar-subitem-background-widest:					#1a1a1a;
 $menubar-subitem-background-hover-narrow:			$grey-color-dark;
 $menubar-subitem-background-hover-medium:			$grey-color-dark;
 $menubar-subitem-background-hover-widest:			$grey-color-dark;
-$menubar-subitem-background-selected-narrow:		$grey-color-light;
-$menubar-subitem-background-selected-medium:		$grey-color-light;
-$menubar-subitem-background-selected-widest:		$grey-color-light;
+$menubar-subitem-background-selected-narrow:		$grey-color-darkf;
+$menubar-subitem-background-selected-medium:		$grey-color-dark;
+$menubar-subitem-background-selected-widest:		$grey-color-dark;
 $menubar-subsubitem-background-narrow: 				#1a1a1a;
 $menubar-subsubitem-background-medium:				#1a1a1a;
 $menubar-subsubitem-background-widest:				#1a1a1a;
-$menubar-subsubitem-background-hover-narrow:		$grey-color-light;
-$menubar-subsubitem-background-hover-medium:		$grey-color-light;
-$menubar-subsubitem-background-hover-widest:		$grey-color-light;
-$menubar-subsubitem-background-selected-narrow:		$grey-color-light;
-$menubar-subsubitem-background-selected-medium:		$grey-color-light;
-$menubar-subsubitem-background-selected-widest:		$grey-color-light;
+$menubar-subsubitem-background-hover-narrow:		$grey-color-dark;
+$menubar-subsubitem-background-hover-medium:		$grey-color-dark;
+$menubar-subsubitem-background-hover-widest:		$grey-color-dark;
+$menubar-subsubitem-background-selected-narrow:		$grey-color-dark;
+$menubar-subsubitem-background-selected-medium:		$grey-color-dark;
+$menubar-subsubitem-background-selected-widest:		$grey-color-dark;
 
 // The height of a menubar item.
 // For medium and wide layout it is recommended to set the height to 'auto' and drive the height by the font
@@ -727,8 +727,8 @@ $menubar-sub-dropdown-border-widest:				$menubar-dropdown-border-widest;
 // The shadow around the dropdown or sub-dropdown part boxes.
 // CSS property: box-shadow
 //
-$menubar-dropdown-box-shadow-medium:				0em 0.25em 0.25em 0em rgba(255,255,255,0.8);
-$menubar-dropdown-box-shadow-widest:				0em 0.25em 0.25em 0em rgba(255,255,255,0.8);
+$menubar-dropdown-box-shadow-medium:				0em 0.25em 0.25em 0em rgba(0,0,0,0.2);
+$menubar-dropdown-box-shadow-widest:				0em 0.25em 0.25em 0em rgba(0,0,0,0.2);
 $menubar-sub-dropdown-box-shadow-medium:			$menubar-dropdown-box-shadow-medium;
 $menubar-sub-dropdown-box-shadow-widest:			$menubar-dropdown-box-shadow-widest;
 
