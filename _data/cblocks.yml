@@ -2,5 +2,10 @@
 
 - name: Haystck
   description: Write-up of haystack from hackthebox
-  link: /test.github.io/classic/2019/11/08/haystack.html
-  image: http://balancingrock.nl/assets/img/classic-jekyll-theme-icon.png
+  link: /classic/2019/11/08/haystack.html
+  image: /assets/img/haystack/banner.png
+
+- name: Netcat
+  description: Netcat advance use
+  link: /classic/2019/11/09/netcat.html
+  image: /assets/img/haystack/banner.png
