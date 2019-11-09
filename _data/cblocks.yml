@@ -3,9 +3,9 @@
 - name: Haystck
   description: Write-up of haystack from hackthebox
   link: /classic/2019/11/08/haystack.html
-  image: /assets/img/haystack/banner.png
+  image: /assets/img/haystack/Banner.png
 
 - name: Netcat
   description: Netcat advance use
   link: /classic/2019/11/09/netcat.html
-  image: /assets/img/haystack/banner.png
+  image: /assets/img/haystack/Banner.png
