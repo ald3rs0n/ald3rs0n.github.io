@@ -1,6 +1,6 @@
 # Content blocks;from here content is getting displayed in home page
 
-- name: Haystck
+- name: Haystack
   description: Write-up of haystack from hackthebox
   link: /classic/2019/11/08/haystack.html
   image: /assets/img/haystack/Banner.png
