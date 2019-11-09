@@ -461,9 +461,9 @@ $menubar-top-separator-enabled-widest:			true;
 // The height of the seperator.
 // CSS property: height
 //
-$menubar-top-separator-height-narrow:			none;
-$menubar-top-separator-height-medium:		  none;
-$menubar-top-separator-height-widest:			none;
+$menubar-top-separator-height-narrow:			0px;
+$menubar-top-separator-height-medium:		  0px;
+$menubar-top-separator-height-widest:			0px;
 
 // The background of the separator
 // CSS property: background
@@ -489,9 +489,9 @@ $menubar-bottom-separator-enabled-widest:		true;
 // The height of the seperator.
 // CSS property: height
 //
-$menubar-bottom-separator-height-narrow:		none;
-$menubar-bottom-separator-height-medium:		none;
-$menubar-bottom-separator-height-widest:		none;
+$menubar-bottom-separator-height-narrow:		0px;
+$menubar-bottom-separator-height-medium:		0px;
+$menubar-bottom-separator-height-widest:		0px;
 
 // The background of the separator
 // CSS property: background
