@@ -35,7 +35,7 @@ $theme-line-height:				1.5;
 $hspacing-unit:					14px; // For best results, use even numbers only
 $vspacing-unit:					14px; // For best results, use even numbers only
 //
-$text-color:				green;
+$text-color:				white;
 $background-color:				#1a1a1a; // Applied to the top element, override by background settings below
 //
 $grey-color:					#828282;
@@ -115,9 +115,9 @@ $banner-height-widest:					135px;
 // The background of the banner. (Not the banner-area!)
 // CSS property: Background.
 //
-$banner-background-narrow:				white;
-$banner-background-medium:				white;
-$banner-background-widest:				white;
+$banner-background-narrow:				#1a1a1a;
+$banner-background-medium:				#1a1a1a;
+$banner-background-widest:				#1a1a1a;
 
 
 // *********************************************************************************************************************
@@ -543,9 +543,9 @@ $menubar-align-items-widest:						center;
 // Background for the menubar.
 // CSS property: background
 //
-$menubar-background-narrow:							white;
-$menubar-background-medium:							white;
-$menubar-background-widest:							white;
+$menubar-background-narrow:							#1a1a1a;
+$menubar-background-medium:							#1a1a1a;
+$menubar-background-widest:							#1a1a1a;
 
 // Border for the menubar.
 // CSS property: border

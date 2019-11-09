@@ -43,7 +43,7 @@ tCookieOk: OK
 tMoreInfo: More info
 
 # Title for Older Posts widget output
-tOlderPosts: Older Posts
+tOlderPosts: All Posts
 
 # Month names for Older Posts widget output
 # Note: Must start with 'None' because of index starting at 0
