@@ -31,7 +31,7 @@ tertiary-column: present
 
 # A subtitle can be displayed in de banner
 #
-subtitle: "easy to use and highly customizable"
+subtitle: "Everyone starts with this awsome line"
 
 # Skip some of the build process for faster recompilation during content creation.
 # Values: yes | no
