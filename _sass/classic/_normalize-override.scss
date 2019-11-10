@@ -20,3 +20,7 @@ textarea {
 	font-size: $theme-font-size;
 	color: $theme-color;
 }
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: $theme-color;
+}

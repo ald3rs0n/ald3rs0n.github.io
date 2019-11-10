@@ -2,11 +2,11 @@
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff;
+  background: #272727;
   margin-bottom: $vspacing-unit / 2; // Replaces :  @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: #eef;
+    background: #272727;
   }
 
   .c     { color: #998; font-style: italic } // Comment
