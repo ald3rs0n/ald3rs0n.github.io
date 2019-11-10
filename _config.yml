@@ -16,12 +16,12 @@
 title: Hello World!
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  &#169; all rights reserved, 2019.
+  copyright reserved, 2019.
 baseurl: "/" # the subpath of your site, e.g. /blog note that it must _also_ be defined in classic-jekyll-theme.scss!
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: https://twitter.com/404_NoNameFound
+twitter_username: 404_NoNameFound
 github_username: ald3rs0n
-reddit_username: 
+reddit_username: souvuo
 
 # Build settings
 markdown: kramdown

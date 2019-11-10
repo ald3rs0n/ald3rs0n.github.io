@@ -15,15 +15,16 @@ Configure the text for the header message in "_data/text-for.yml" for the item `
 	{%- assign message = site.data.text-for.tSocialMediaResources -%}
 {%- endif %}
 	<h1>{{ message }}:</h1>
+	<div>
 {%- if site.github_username %}
-		<div>
 	{% include widgets/social-media-res/icon-github.html username=site.github_username %}
-		</div>
 {%- endif -%}
 {%- if site.twitter_username %}
-		<div>
 	{% include widgets/social-media-res/icon-twitter.html username=site.twitter_username %}
-		</div>
 {%- endif %}
+{%- if site.reddit_username %}
+	{% include widgets/social-media-res/icon-reddit.html username=site.reddit_username %}
+{%- endif %}
+	</div>
 </div>
 <!-- end of include social-media.html -->
