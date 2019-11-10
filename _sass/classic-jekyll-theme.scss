@@ -829,8 +829,8 @@ $tertiary-column-background-widest:		none;
 // Color for the separator between the columns
 // CSS property: border-right (but only the color part)
 //
-$column-separator-color-medium:			lighten($grey-color, 30%);
-$column-separator-color-widest:			lighten($grey-color, 30%);
+$column-separator-color-medium:			$theme-color;
+$column-separator-color-widest:			$theme-color;
 
 // Enable/disable display of the column separator
 //
