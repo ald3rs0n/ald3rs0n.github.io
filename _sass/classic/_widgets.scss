@@ -86,3 +86,8 @@
 	.title { display: none; }
 	input:checked ~ { .title { display: block; } }
 }
+
+.social-icon{
+	display: flex;
+	justify-content: space-evenly;
+}

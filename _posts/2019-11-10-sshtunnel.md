@@ -66,6 +66,6 @@ Quick commands:
 
 Hope you enjoyed; Happy Hacking.
 
-Contact: [mail](aldersone213@gmail.com)   || [twitter](https://twitter.com/404_NoNameFound)  || [reddit](https://reddit.com/u/souvuo)
+Contact: [mail](aldersone213@gmail.com)
 
     Author:	Ald3rs0n
