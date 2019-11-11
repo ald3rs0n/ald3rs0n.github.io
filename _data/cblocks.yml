@@ -2,15 +2,15 @@
 
 - name: Haystack
   description: Write-up of haystack from hackthebox
-  link: /classic/2019/11/08/haystack.html
+  link: /htb-writeup/2019/11/08/haystack.html
   image: /assets/img/haystack/Banner.png
 
 - name: Netcat
   description: Netcat advance use
-  link: /classic/2019/11/09/netcat.html
+  link: /techniques/2019/11/09/netcat.html
   image: /assets/img/netcat/Banner.jpeg
 
 - name: SSH Tunnel
   description: SSH Tunneling useage
-  link: /classic/2019/11/09/sshtunnel.html
+  link: /techniques/2019/11/09/sshtunnel.html
   image: /assets/img/ssh/tunnel.jpg
