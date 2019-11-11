@@ -809,8 +809,8 @@ $column-panel-background-widest:		none;
 // Used in the mixin definitions.
 //
 $primary-column-min-width:				480px;
-$secondary-column-width: 				240px;
-$tertiary-column-width:					240px;
+$secondary-column-width: 				180px;
+$tertiary-column-width:					200px;
 
 // For the primary column.
 // CSS property: background
@@ -1138,7 +1138,7 @@ $category-header-background: 				none;
 // The background for the header of the categories widget when the cursor hovers over it
 // CSS properties: background
 //
-$category-header-background-hover:			$grey-color-light;
+$category-header-background-hover:			$grey-color-dark;
 
 // The background for the items of the categories widget
 // CSS properties: background
@@ -1148,7 +1148,7 @@ $category-item-background:					none;
 // The background for the items of the categories widget when the cursor hovers over it
 // CSS properties: background
 //
-$category-item-background-hover:			$grey-color-light;
+$category-item-background-hover:			$grey-color-dark;
 
 // The padding for the items of the categories widget
 // CSS properties: padding

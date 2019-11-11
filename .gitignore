@@ -6,4 +6,4 @@ _site
 gemfile.lock
 .DS_Store
 *.DS_Store
-.txt
+*.txt
