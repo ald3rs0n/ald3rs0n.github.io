@@ -17,6 +17,11 @@ Configure the text for the header message in "_data/text-for.yml" for the item `
 	<h1>{{ message }}:</h1>
 	<div  class="social-icon">
 		<div>
+{%- if site.email %}
+	{% include widgets/social-media-res/icon-email.html username=site.email %}
+{%- endif %}
+		</div>
+		<div>
 {%- if site.github_username %}
 	{% include widgets/social-media-res/icon-github.html username=site.github_username %}
 {%- endif -%}

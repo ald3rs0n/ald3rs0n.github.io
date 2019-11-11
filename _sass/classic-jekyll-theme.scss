@@ -19,8 +19,11 @@
 // main.css default settings
 // ---------------------------------------------------------------------------------------------------------------------
 // These definitions have been taken from main.scss
-//
-$theme-font-family:				"Helvetica Neue", Helvetica, Arial, sans-serif;
+//Importing custome font
+@font-face { font-family: SemiCoder; src: url('/assets/fonts/Semi-Coder-Regular.otf') };
+@font-face { font-family: Hacked; src: url('/assets/fonts/HACKED.ttf') };
+
+$theme-font-family:				"SemiCoder", Helvetica, Arial, sans-serif;
 $theme-font-size:				16px;
 $theme-font-weight:				400;
 $small-1-font-size:				$theme-font-size * 0.875;

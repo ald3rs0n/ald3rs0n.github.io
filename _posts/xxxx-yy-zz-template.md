@@ -7,7 +7,9 @@ date:   2019-11-09
 categories: classic
 ---
 
-
+{:.text-centered}
+# || ||
+![Banner](../../../../assets/img/haystack/Banner.png){:.image-centered}
 
 
 
@@ -22,6 +24,6 @@ categories: classic
 
 Hope you enjoyed; Happy Hacking.
 
-Contact: [mail](aldersone213@gmail.com)   || [twitter](https://twitter.com/404_NoNameFound)  || [reddit](https://reddit.com/u/souvuo)
+Contact: [mail](aldersone213@gmail.com)
 
     Author:	Ald3rs0n

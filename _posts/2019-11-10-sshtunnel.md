@@ -7,8 +7,9 @@ date:   2019-11-09
 categories: classic
 ---
 
-
-# SSH Tunnel
+{:.text-centered}
+# || SSH Tunnel ||
+![Banner](../../../../assets/img/ssh/tunnel.jpg){:.image-centered}
 
 A very popular service used by almost all system administrator for remote administration as it is secure encrypted connection. For a pentester it is more useful than it seems.
 
