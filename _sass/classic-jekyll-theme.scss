@@ -34,6 +34,10 @@ $small-5-font-size:				$small-4-font-size * 0.875;
 $large-1-font-size:				$theme-font-size * 1.125;
 $large-2-font-size:				$large-1-font-size * 1.125;
 $theme-line-height:				1.5;
+
+//Banner font family
+$banner-font-family: "Hacked","SemiCoder",Arial, sans-serif;
+
 //
 $hspacing-unit:					14px; // For best results, use even numbers only
 $vspacing-unit:					14px; // For best results, use even numbers only
@@ -324,9 +328,9 @@ $banner-subtitle-padding-widest:				0px;
 //
 // Note that a valid font specification requires as a minimum the size and font family
 //
-$banner-title-font-narrow:						20px $theme-font-family;
-$banner-title-font-medium:						25px $theme-font-family;
-$banner-title-font-widest:						40px $theme-font-family;
+$banner-title-font-narrow:						20px $banner-font-family;
+$banner-title-font-medium:						25px $banner-font-family;
+$banner-title-font-widest:						40px $banner-font-family;
 
 // The font for the subtitle.
 // CSS property: font

@@ -24,6 +24,4 @@ categories: classic
 
 Hope you enjoyed; Happy Hacking.
 
-Contact: [mail](aldersone213@gmail.com)
-
     Author:	Ald3rs0n

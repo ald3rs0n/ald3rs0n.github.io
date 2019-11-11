@@ -1,6 +1,6 @@
 ---
 layout: category-page
-title: jekyll
+title: htb-writeup
 ---
 
 This file is only used to initiate the compilation of a category page for the category shown as title.
