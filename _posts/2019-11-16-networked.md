@@ -2,9 +2,9 @@
 layout: post
 secondary-column: none
 tertiary-column: none
-title:  SSH Tunnel
+title:  Networked
 date:   2019-11-16
-categories: htb-wrtieup
+categories: htb-writeup
 ---
 
 {:.text-centered}

@@ -1,12 +1,12 @@
 # Content blocks;from here content is getting displayed in home page
 
 - name: Networked
-  description: Write-up of networked box from hackthebox
+  description: Write up of networked box from hackthebox
   link: /htb-writeup/2019/11/16/networked.html
   image: /assets/img/networked/Banner.png
 
 - name: Haystack
-  description: Write-up of haystack box from hackthebox
+  description: Write up of haystack box from hackthebox
   link: /htb-writeup/2019/11/08/haystack.html
   image: /assets/img/haystack/Banner.png
 
