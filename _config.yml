@@ -16,12 +16,17 @@
 title: Raw Bytes!
 email: ald3rs0ne213@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  copyright reserved, 2019.
+  copyright all rights reserved, 2019.
 baseurl: "/" # the subpath of your site, e.g. /blog note that it must _also_ be defined in classic-jekyll-theme.scss!
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Contact info
 twitter_username: 404_NoNameFound
 github_username: ald3rs0n
 reddit_username: u/souvuo
+
+# Google Analytics
+google_analytics: UA-153210813-1
 
 # Build settings
 markdown: kramdown
