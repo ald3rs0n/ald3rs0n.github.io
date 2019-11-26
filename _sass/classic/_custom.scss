@@ -109,6 +109,8 @@
 	display: block;
 	width: 200px;
 	margin: $vspacing-unit $hspacing-unit;
+	padding-top: 14px;
+	box-shadow: 0em 0.2em 0.2em 0em rgba(0,0,0,0.5);
 }
 
 .cblock-name {

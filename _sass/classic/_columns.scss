@@ -115,8 +115,13 @@ main {
 	margin-left: 0;
 	margin-bottom: $column-separator-bottom-spacing;
 	margin-right: 0;
-	@include medium-layout { border-right: 1px dashed $column-separator-color-medium; }
-	@include widest-layout { border-right: 1px dashed $column-separator-color-widest; }
+	@include medium-layout { border-right: 0px dashed $column-separator-color-medium; }
+	@include widest-layout { border-right: 0px dashed $column-separator-color-widest; }
 	@if $column-separator-display { display: block; } @else { display: none; }
 }
 
+// secondary and tartiary column shadow
+.secondary-column,
+.tertiary-column {
+	box-shadow: 0em 0em 0.2em 0em rgba(0,0,0,0.5);
+}
