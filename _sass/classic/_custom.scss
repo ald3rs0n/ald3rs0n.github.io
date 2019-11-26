@@ -19,6 +19,12 @@
 	font-weight: bold;
 }
 
+// green text and hacked font for about page
+.about-heading {
+	font: $banner-font-family;
+	color: $theme-color;
+}
+
 // A floating text box on the right hand side.
 .text-boxed-float-right {
 	float: right;
