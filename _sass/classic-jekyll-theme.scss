@@ -25,7 +25,7 @@
 
 $theme-font-family:				"SemiCoder", Helvetica, Arial, sans-serif;
 $theme-font-size:				16px;
-$theme-font-weight:				400;
+$theme-font-weight:				100;
 $small-1-font-size:				$theme-font-size * 0.875;
 $small-2-font-size:				$small-1-font-size * 0.875;
 $small-3-font-size:				$small-2-font-size * 0.875;
@@ -810,7 +810,7 @@ $column-panel-background-widest:		none;
 //
 $primary-column-min-width:				480px;
 $secondary-column-width: 				180px;
-$tertiary-column-width:					200px;
+$tertiary-column-width:					240px;
 
 // For the primary column.
 // CSS property: background

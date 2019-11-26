@@ -4,8 +4,6 @@ title: About this site
 menuInclude: yes
 menuTopTitle: About
 menuTopIndex: 100
-secondary-column: none
-
 # excerpt: A short introduction to the content of this site.
 # end of description at 156 characters ----------| (last 3 chars will be replaced by '...' on overflow)
 ---
