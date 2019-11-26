@@ -1,7 +1,5 @@
 ---
 layout: post
-secondary-column: none
-tertiary-column: none
 title:  Networked
 date:   2019-11-16
 categories: htb-writeup

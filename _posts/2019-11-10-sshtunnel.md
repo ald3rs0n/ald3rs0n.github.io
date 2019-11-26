@@ -1,7 +1,5 @@
 ---
 layout: post
-secondary-column: none
-tertiary-column: none
 title:  SSH Tunnel
 date:   2019-11-09
 categories: techniques
@@ -66,5 +64,3 @@ Quick commands:
     ssh -R 4000:server.net:5000 user@server.net
 
 Hope you enjoyed; Happy Hacking.
-
-    Author:	Ald3rs0n
