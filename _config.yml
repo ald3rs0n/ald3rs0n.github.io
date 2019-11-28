@@ -35,3 +35,4 @@ exclude: [README.md]
 theme: classic-jekyll-theme
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
