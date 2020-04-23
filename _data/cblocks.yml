@@ -1,5 +1,10 @@
 # Content blocks;from here content is getting displayed in home page
 
+- name: Traverxec
+  description: Write up of traverxec box from hackthebox
+  link: /htb-writeup/2020/01/11/traverxec.html
+  image: /assets/img/traverxec/Banner.png
+
 - name: Networked
   description: Write up of networked box from hackthebox
   link: /htb-writeup/2019/11/16/networked.html
