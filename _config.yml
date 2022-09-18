@@ -16,7 +16,7 @@
 title: Raw Bytes!
 email: ald3rs0ne213@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  copyright all rights reserved, 2019.
+  copyright all rights reserved, 2022.
 baseurl: "/" # the subpath of your site, e.g. /blog note that it must _also_ be defined in classic-jekyll-theme.scss!
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -32,7 +32,9 @@ google_analytics: UA-153210813-1
 markdown: kramdown
 keep_files: [assets, icons]
 exclude: [README.md]
-theme: classic-jekyll-theme
+# theme: classic-jekyll-theme
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
