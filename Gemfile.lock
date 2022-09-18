@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    classic-jekyll-theme (2.4.2)
+    classic-jekyll-theme (2.5.0)
       jekyll (~> 3.5, >= 3.5.1)
       jekyll-data (>= 0.4, < 2.0)
       jekyll-feed (~> 0.8)
