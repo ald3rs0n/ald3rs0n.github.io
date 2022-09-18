@@ -1,5 +1,11 @@
 # Content blocks;from here content is getting displayed in home page
 
+- name: Openadmin
+  description: Write up of openadmin box from hackthebox
+  link: /htb-writeup/2020/01/30/openadmin.html
+  image: /assets/img/openadmin/Banner.png
+
+
 - name: Traverxec
   description: Write up of traverxec box from hackthebox
   link: /htb-writeup/2020/04/11/traverxec.html
