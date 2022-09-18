@@ -3,23 +3,23 @@
 - name: Openadmin
   description: Write up of openadmin box from hackthebox
   link: /htb-writeup/2020/01/30/openadmin.html
-  image: /assets/img/openadmin/Banner.png
+  image: /assets/img/openadmin/banner.png
 
 
 - name: Traverxec
   description: Write up of traverxec box from hackthebox
   link: /htb-writeup/2020/04/11/traverxec.html
-  image: /assets/img/traverxec/Banner.png
+  image: /assets/img/traverxec/banner.png
 
 - name: Networked
   description: Write up of networked box from hackthebox
   link: /htb-writeup/2019/11/16/networked.html
-  image: /assets/img/networked/Banner.png
+  image: /assets/img/networked/banner.png
 
 - name: Haystack
   description: Write up of haystack box from hackthebox
   link: /htb-writeup/2019/11/08/haystack.html
-  image: /assets/img/haystack/Banner.png
+  image: /assets/img/haystack/banner.png
 
 - name: Netcat
   description: Netcat advance use
