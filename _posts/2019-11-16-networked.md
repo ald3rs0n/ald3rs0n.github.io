@@ -7,7 +7,7 @@ categories: htb-writeup
 
 {:.text-centered}
 ## NETWORKED@HTB
-![Banner](../../../../assets/img/networked/Banner.png){:.image-centered}
+![Banner](../../../../assets/img/networked/banner.png){:.image-centered}
 
 Networked is an easy box from hackthebox. Ok let’s start.
 

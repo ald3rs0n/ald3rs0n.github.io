@@ -8,7 +8,7 @@ categories: htb-writeup
 {:.text-centered}
 ### OPENADMIN@HTB
 
-![Banner](../../../../assets/img/openadmin/Banner.png){:.image-centered}
+![Banner](../../../../assets/img/openadmin/banner.png){:.image-centered}
 
 Openadmin is an easy box from hackthebox. Ok let’s start.
 

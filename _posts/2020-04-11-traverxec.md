@@ -8,7 +8,7 @@ categories: htb-writeup
 {:.text-centered}
 ## TRAVERXEC@HTB
 
-![Banner](../../../../assets/img/traverxec/Banner.png){:.image-centered}
+![Banner](../../../../assets/img/traverxec/banner.png){:.image-centered}
 
 Traverxec is an easy box from hackthebox. Ok let’s start.
 
