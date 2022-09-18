@@ -1,0 +1,26 @@
+# Content blocks;from here content is getting displayed in home page
+
+- name: Traverxec
+  description: Write up of traverxec box from hackthebox
+  link: /htb-writeup/2020/04/11/traverxec.html
+  image: /assets/img/traverxec/Banner.png
+
+- name: Networked
+  description: Write up of networked box from hackthebox
+  link: /htb-writeup/2019/11/16/networked.html
+  image: /assets/img/networked/Banner.png
+
+- name: Haystack
+  description: Write up of haystack box from hackthebox
+  link: /htb-writeup/2019/11/08/haystack.html
+  image: /assets/img/haystack/Banner.png
+
+- name: Netcat
+  description: Netcat advance use
+  link: /techniques/2019/11/09/netcat.html
+  image: /assets/img/netcat/Banner.jpeg
+
+- name: SSH Tunnel
+  description: SSH Tunneling useage
+  link: /techniques/2019/11/09/sshtunnel.html
+  image: /assets/img/ssh/tunnel.jpg

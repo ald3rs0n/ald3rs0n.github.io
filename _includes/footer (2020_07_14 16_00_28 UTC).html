@@ -1,0 +1,22 @@
+
+<!-- include footer.html -->
+{%- comment -%}<!--
+
+Layout of the footer.
+
+Configuration:
+	site.description: The text to be displayed.
+
+-->{%- endcomment %}
+<footer>
+	<div class="widget">
+		{% include widgets/social-media.html %}
+	</div>
+	<div>
+		<p>{{ site.description | escape }}</p>
+	</div>
+	</div>
+	
+
+</footer>
+<!-- end of include footer.html -->
